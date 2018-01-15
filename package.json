@@ -1,6 +1,6 @@
 {
   "name": "react-steps-forked-by-gd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Steps component for react",
   "main": "dist/react-steps.js",
   "scripts": {
