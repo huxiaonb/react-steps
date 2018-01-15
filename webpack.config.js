@@ -30,7 +30,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.less$/,
-                loader: 'style!css?modules&localIdentName=' + ( dev ? '[name]__[local]___[hash:base64:5]' : '[hash:base64:5]' ) + '!less'
+                loader: 'style!css'
             },
             {
                 test: /\.js$/,
