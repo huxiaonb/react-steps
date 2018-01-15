@@ -1,12 +1,12 @@
 {
   "name": "react-steps-forked-by-gd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Steps component for react",
   "main": "dist/react-steps.js",
   "scripts": {
     "prepublish": "npm build",
     "build": "webpack",
-    "buildExample": "NODE_ENV=production webpack --config webpack.config.example.js"
+    "buildExample": "cross-env NODE_ENV=production webpack --config webpack.config.example.js"
   },
   "repository": {
     "type": "git",
@@ -37,5 +37,8 @@
     "webpack": "1.13.2"
   },
   "readme": "# react-steps\r\nSteps component for react\r\n\r\nDemo : http://jakubzloczewski.github.io/react-steps/\r\n\r\n## Instructions\r\n\r\nTo install this module run:\r\n```sh\r\nnpm install react-steps\r\n```\r\n\r\nrequire it inside of your app\r\n```js\r\nvar Steps = require('react-steps');\r\n```\r\n\r\nto compile example with webpack\r\n\r\n```sh\r\nwebpack\r\n```\r\n\r\nTu run example localy just open ./example/index.html in browser\r\n",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "cross-env": "^5.1.3"
+  }
 }
